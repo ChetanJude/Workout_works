@@ -1,0 +1,6 @@
+{
+"browser" : "chrome",
+"url" : "http://49.249.28.218:8081/AppServer/GYM_Management_System/login.php",
+"username" : "john@test.com",
+"password" : "Test@123"
+}

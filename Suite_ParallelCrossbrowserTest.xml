@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite" thread-count="5">
+	<test name="Test1">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class
+				name="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class
+				name="com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

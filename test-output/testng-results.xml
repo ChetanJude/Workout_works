@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T12:46:48 IST" name="Suite" finished-at="2024-09-23T12:47:34 IST" duration-ms="46257">
+    <groups>
+      <group name="smoke test">
+        <method signature="Working_with_DashboardModuleTest.createCategoryAndDeleteTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" name="createCategoryAndDeleteTest" class="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest"/>
+        <method signature="Working_with_PackageModuleTest.createPackageWithCategoryAndPackageTypeTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" name="createPackageWithCategoryAndPackageTypeTest" class="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest"/>
+        <method signature="Working_With_PricingPlanModule.bookingPricingPlanWithPackagecreationTest()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" name="bookingPricingPlanWithPackagecreationTest" class="com.workoutworks.gms.usertest.Working_With_PricingPlanModule"/>
+      </group> <!-- smoke test -->
+      <group name="regression test">
+        <method signature="Working_with_DashboardModuleTest.createPackageTypeAndDeletingWithCategoryTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" name="createPackageTypeAndDeletingWithCategoryTest" class="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest"/>
+        <method signature="Working_with_PackageModuleTest.editPackageInManagePageUnderPackageTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" name="editPackageInManagePageUnderPackageTest" class="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest"/>
+      </group> <!-- regression test -->
+    </groups>
+    <test started-at="2024-09-23T12:46:48 IST" name="Test1" finished-at="2024-09-23T12:47:25 IST" duration-ms="37060">
+      <class name="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:46:48 IST" name="configBC" finished-at="2024-09-23T12:46:56 IST" duration-ms="7860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:46:56 IST" name="configBM" finished-at="2024-09-23T12:47:06 IST" duration-ms="10342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createCategoryAndDeleteTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:47:06 IST" name="createCategoryAndDeleteTest" finished-at="2024-09-23T12:47:11 IST" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCategoryAndDeleteTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:47:11 IST" name="configAM" finished-at="2024-09-23T12:47:13 IST" duration-ms="1933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:47:13 IST" name="configBM" finished-at="2024-09-23T12:47:15 IST" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createPackageTypeAndDeletingWithCategoryTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:47:15 IST" name="createPackageTypeAndDeletingWithCategoryTest" finished-at="2024-09-23T12:47:23 IST" duration-ms="7508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPackageTypeAndDeletingWithCategoryTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:47:23 IST" name="configAM" finished-at="2024-09-23T12:47:24 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@399f45b1]" started-at="2024-09-23T12:47:24 IST" name="configAC" finished-at="2024-09-23T12:47:25 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-09-23T12:46:48 IST" name="Test3" finished-at="2024-09-23T12:47:33 IST" duration-ms="45526">
+      <class name="com.workoutworks.gms.usertest.Working_With_PricingPlanModule">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:46:48 IST" name="configBS" finished-at="2024-09-23T12:46:48 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:46:48 IST" name="configBC" finished-at="2024-09-23T12:46:56 IST" duration-ms="7662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:46:56 IST" name="configBM" finished-at="2024-09-23T12:47:08 IST" duration-ms="12349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="bookingPricingPlanWithPackagecreationTest()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:47:08 IST" name="bookingPricingPlanWithPackagecreationTest" finished-at="2024-09-23T12:47:33 IST" duration-ms="24803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingPricingPlanWithPackagecreationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:47:33 IST" name="configAM" finished-at="2024-09-23T12:47:33 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:47:33 IST" name="configAC" finished-at="2024-09-23T12:47:33 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModule@7c7b252e]" started-at="2024-09-23T12:47:34 IST" name="configAS" finished-at="2024-09-23T12:47:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.workoutworks.gms.usertest.Working_With_PricingPlanModule -->
+    </test> <!-- Test3 -->
+    <test started-at="2024-09-23T12:46:48 IST" name="Test2" finished-at="2024-09-23T12:47:34 IST" duration-ms="46256">
+      <class name="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:46:48 IST" name="configBC" finished-at="2024-09-23T12:46:53 IST" duration-ms="5056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:46:53 IST" name="configBM" finished-at="2024-09-23T12:47:02 IST" duration-ms="8564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createPackageWithCategoryAndPackageTypeTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:47:02 IST" name="createPackageWithCategoryAndPackageTypeTest" finished-at="2024-09-23T12:47:21 IST" duration-ms="19428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPackageWithCategoryAndPackageTypeTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:47:21 IST" name="configAM" finished-at="2024-09-23T12:47:23 IST" duration-ms="1690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:47:23 IST" name="configBM" finished-at="2024-09-23T12:47:25 IST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="editPackageInManagePageUnderPackageTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:47:25 IST" name="editPackageInManagePageUnderPackageTest" finished-at="2024-09-23T12:47:34 IST" duration-ms="9298" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: MicrosoftEdge=129.0.2792.52)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [18b54d3c3e020da073f38a9423396b05, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50497}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\Chetan\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50497/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18b54d3c3e020da073f38a9423396b05]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: MicrosoftEdge=129.0.2792.52)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [18b54d3c3e020da073f38a9423396b05, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 129.0.2792.52, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50497}, msedge: {msedgedriverVersion: 129.0.2792.52 (6462e8fc16ec..., userDataDir: C:\Users\Chetan\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50497/devtoo..., se:cdpVersion: 129.0.2792.52, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 18b54d3c3e020da073f38a9423396b05
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)
+at com.workoutworks.gms.generic.webdriverutility.WebdriverUtility.switchToAlertGetTextAccept(WebdriverUtility.java:72)
+at com.workoutworks.gms.packagetest.Working_with_PackageModuleTest.editPackageInManagePageUnderPackageTest(Working_with_PackageModuleTest.java:173)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPackageInManagePageUnderPackageTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:47:34 IST" name="configAM" finished-at="2024-09-23T12:47:34 IST" duration-ms="41" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Remote browser did not respond to getCurrentUrl
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Remote browser did not respond to getCurrentUrl
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:316)
+at com.workoutworks.gms.generic.baseclass.BaseClass.configAM(BaseClass.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@34a3d150]" started-at="2024-09-23T12:47:34 IST" name="configAC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1727075854695" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.workoutworks.gms.packagetest.Working_with_PackageModuleTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
