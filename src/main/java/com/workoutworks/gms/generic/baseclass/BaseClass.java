@@ -27,66 +27,67 @@ public class BaseClass {
 	public WebDriver driver;
 	public static WebDriver edriver;
 	public static WebDriver sdriver;
-	public WebdriverUtility wu= new WebdriverUtility();
-	public FileUtility fu= new FileUtility();
-	public ExcelUtility eu= new ExcelUtility();
-	public JavaUtility ju=new JavaUtility();
+	public WebdriverUtility wu = new WebdriverUtility();
+	public FileUtility fu = new FileUtility();
+	public ExcelUtility eu = new ExcelUtility();
+	public JavaUtility ju = new JavaUtility();
 
-
-	@BeforeSuite(groups = {"smoke test","regression test"})
+	@BeforeSuite(groups = { "smoketest", "regressiontest" })
 	public void configBS() {
 		System.out.println("Connected to DataBase");
 	}
-	
+
 	/* @Parameters("browser") */
-	@BeforeClass(groups = {"smoke test","regression test"})
+	@BeforeClass(groups = { "smoketest", "regressiontest" })
 	public void configBC(/* String browserr */) throws IOException {
 
-		String browser = /*browserr;*/
-				System.getProperty("browser",fu.getDataFromPropertyFile("browser"));
-		if(browser.equalsIgnoreCase("chrome")) {
-			driver= new ChromeDriver();
-		}else if(browser.equalsIgnoreCase("edge")) {
-			driver= new EdgeDriver();
-		}else {
-			driver= new FirefoxDriver();
+		String browser = /* browserr; */
+				System.getProperty("browser", fu.getDataFromPropertyFile("browser"));
+		if (browser.equalsIgnoreCase("chrome")) {
+			driver = new ChromeDriver();
+		} else if (browser.equalsIgnoreCase("edge")) {
+			driver = new EdgeDriver();
+		} else {
+			driver = new FirefoxDriver();
 		}
-		sdriver = driver;
 		wu.maximizePage(driver);
+		wu.waitUtilPageloads(driver);
+		sdriver = driver;
 	}
 
-	@BeforeMethod(groups = {"smoke test","regression test"})
-	public void configBM() throws IOException{
-		LoginPage lplib= new LoginPage(driver);
-		String url = fu.getDataFromPropertyFile("url");
-		String username = fu.getDataFromPropertyFile("username");
-		String password = fu.getDataFromPropertyFile("password");
+	@BeforeMethod(groups = { "smoketest", "regressiontest" })
+	public void configBM() throws IOException {
+		LoginPage lplib = new LoginPage(driver);
+		String url = System.getProperty("url", fu.getDataFromPropertyFile("url"));
+		String username = System.getProperty("username", fu.getDataFromPropertyFile("username"));
+		String password = System.getProperty("password", fu.getDataFromPropertyFile("password"));
 		lplib.loginToApp(url, username, password);
 
 	}
 
-	@AfterMethod(groups = {"smoke test","regression test"})
+	@AfterMethod(groups = { "smoketest", "regressiontest" })
 	public void configAM() {
 
-		Homepage hp = null; 
-		UserHomePage uhp=null; 
+		Homepage hp = null;
+		UserHomePage uhp = null;
 		String url = driver.getCurrentUrl();
 
-		if(url.contains("admin")) {
-			hp= new Homepage(driver);
-			hp.logout(); 
-		}else {
-			uhp=new UserHomePage(driver); 
-			uhp.getLogoutLink().click(); }
+		if (url.contains("admin")) {
+			hp = new Homepage(driver);
+			hp.logout();
+		} else {
+			uhp = new UserHomePage(driver);
+			uhp.getLogoutLink().click();
+		}
 
 	}
 
-	@AfterClass(groups = {"smoke test","regression test"})
+	@AfterClass(groups = { "smoketest", "regressiontest" })
 	public void configAC() {
-		driver.quit(); 
+		driver.quit();
 	}
 
-	@AfterSuite(groups = {"smoke test","regression test"})
+	@AfterSuite(groups = { "smoketest", "regressiontest" })
 	public void configAS() {
 		System.out.println("Disconnect the DB");
 	}
