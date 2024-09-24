@@ -1,90 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="4" total="9" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T16:28:07 IST" name="Suite" finished-at="2024-09-23T16:28:51 IST" duration-ms="44224">
+  <suite started-at="2024-09-24T10:06:29 IST" name="Suite" finished-at="2024-09-24T10:07:08 IST" duration-ms="39710">
     <groups>
       <group name="regressiontest">
-        <method signature="Working_with_DashboardModuleTest.createPackageTypeAndDeletingWithCategoryTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" name="createPackageTypeAndDeletingWithCategoryTest" class="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest"/>
-        <method signature="Working_with_PackageModuleTest.editPackageInManagePageUnderPackageTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" name="editPackageInManagePageUnderPackageTest" class="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest"/>
+        <method signature="Working_with_DashboardModuleTest.createPackageTypeAndDeletingWithCategoryTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" name="createPackageTypeAndDeletingWithCategoryTest" class="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest"/>
+        <method signature="Working_with_PackageModuleTest.editPackageInManagePageUnderPackageTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" name="editPackageInManagePageUnderPackageTest" class="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest"/>
       </group> <!-- regressiontest -->
       <group name="smoketest">
-        <method signature="Working_with_DashboardModuleTest.createCategoryAndDeleteTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" name="createCategoryAndDeleteTest" class="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest"/>
-        <method signature="Working_with_PackageModuleTest.createPackageWithCategoryAndPackageTypeTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" name="createPackageWithCategoryAndPackageTypeTest" class="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest"/>
-        <method signature="Working_With_PricingPlanModuleTest.bookingPricingPlanWithPackagecreationTest()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@47eaca72]" name="bookingPricingPlanWithPackagecreationTest" class="com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest"/>
+        <method signature="Working_With_PricingPlanModuleTest.bookingPricingPlanWithPackagecreationTest()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@131774fe]" name="bookingPricingPlanWithPackagecreationTest" class="com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest"/>
+        <method signature="Working_with_DashboardModuleTest.createCategoryAndDeleteTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" name="createCategoryAndDeleteTest" class="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest"/>
+        <method signature="Working_with_PackageModuleTest.createPackageWithCategoryAndPackageTypeTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" name="createPackageWithCategoryAndPackageTypeTest" class="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2024-09-23T16:28:07 IST" name="Test1" finished-at="2024-09-23T16:28:34 IST" duration-ms="27558">
-      <class name="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:07 IST" name="configBC" finished-at="2024-09-23T16:28:10 IST" duration-ms="3109" status="PASS">
+    <test started-at="2024-09-24T10:06:29 IST" name="Suite" finished-at="2024-09-24T10:07:08 IST" duration-ms="39710">
+      <class name="com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@131774fe]" started-at="2024-09-24T10:06:57 IST" name="configBC" finished-at="2024-09-24T10:06:59 IST" duration-ms="1106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:10 IST" name="configBM" finished-at="2024-09-23T16:28:14 IST" duration-ms="4076" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@131774fe]" started-at="2024-09-24T10:06:59 IST" name="configBM" finished-at="2024-09-24T10:06:59 IST" duration-ms="870" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createCategoryAndDeleteTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:14 IST" name="createCategoryAndDeleteTest" finished-at="2024-09-23T16:28:21 IST" duration-ms="6785" status="PASS">
+        <test-method signature="bookingPricingPlanWithPackagecreationTest()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@131774fe]" started-at="2024-09-24T10:06:59 IST" name="bookingPricingPlanWithPackagecreationTest" finished-at="2024-09-24T10:07:08 IST" duration-ms="8356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingPricingPlanWithPackagecreationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@131774fe]" started-at="2024-09-24T10:07:08 IST" name="configAM" finished-at="2024-09-24T10:07:08 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest@131774fe]" started-at="2024-09-24T10:07:08 IST" name="configAC" finished-at="2024-09-24T10:07:08 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.workoutworks.gms.usertest.Working_With_PricingPlanModuleTest -->
+      <class name="com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:51 IST" name="configBC" finished-at="2024-09-24T10:06:52 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:52 IST" name="configBM" finished-at="2024-09-24T10:06:53 IST" duration-ms="1091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createCategoryAndDeleteTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:53 IST" name="createCategoryAndDeleteTest" finished-at="2024-09-24T10:06:54 IST" duration-ms="799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCategoryAndDeleteTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:21 IST" name="configAM" finished-at="2024-09-23T16:28:22 IST" duration-ms="1528" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:54 IST" name="configAM" finished-at="2024-09-24T10:06:54 IST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:22 IST" name="configBM" finished-at="2024-09-23T16:28:23 IST" duration-ms="1290" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:54 IST" name="configBM" finished-at="2024-09-24T10:06:55 IST" duration-ms="464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createPackageTypeAndDeletingWithCategoryTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:23 IST" name="createPackageTypeAndDeletingWithCategoryTest" finished-at="2024-09-23T16:28:33 IST" duration-ms="9675" status="PASS">
+        <test-method signature="createPackageTypeAndDeletingWithCategoryTest()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:55 IST" name="createPackageTypeAndDeletingWithCategoryTest" finished-at="2024-09-24T10:06:57 IST" duration-ms="1975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPackageTypeAndDeletingWithCategoryTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:33 IST" name="configAM" finished-at="2024-09-23T16:28:34 IST" duration-ms="697" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:57 IST" name="configAM" finished-at="2024-09-24T10:06:57 IST" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@36bc55de]" started-at="2024-09-23T16:28:34 IST" name="configAC" finished-at="2024-09-23T16:28:34 IST" duration-ms="303" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest@10e31a9a]" started-at="2024-09-24T10:06:57 IST" name="configAC" finished-at="2024-09-24T10:06:57 IST" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
       </class> <!-- com.workoutworks.gms.dashboardtest.Working_with_DashboardModuleTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-09-23T16:28:07 IST" name="Test2" finished-at="2024-09-23T16:28:51 IST" duration-ms="44224">
       <class name="com.workoutworks.gms.packagetest.Working_with_PackageModuleTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:07 IST" name="configBC" finished-at="2024-09-23T16:28:10 IST" duration-ms="3090" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:28 IST" name="configBS" finished-at="2024-09-24T10:06:29 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:29 IST" name="configBC" finished-at="2024-09-24T10:06:31 IST" duration-ms="2589" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:10 IST" name="configBM" finished-at="2024-09-23T16:28:14 IST" duration-ms="3952" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:31 IST" name="configBM" finished-at="2024-09-24T10:06:35 IST" duration-ms="3839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createPackageWithCategoryAndPackageTypeTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:14 IST" name="createPackageWithCategoryAndPackageTypeTest" finished-at="2024-09-23T16:28:32 IST" duration-ms="18692" status="PASS">
+        <test-method signature="createPackageWithCategoryAndPackageTypeTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:35 IST" name="createPackageWithCategoryAndPackageTypeTest" finished-at="2024-09-24T10:06:44 IST" duration-ms="9092" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPackageWithCategoryAndPackageTypeTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:32 IST" name="configAM" finished-at="2024-09-23T16:28:33 IST" duration-ms="632" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:44 IST" name="configAM" finished-at="2024-09-24T10:06:44 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:33 IST" name="configBM" finished-at="2024-09-23T16:28:34 IST" duration-ms="691" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:44 IST" name="configBM" finished-at="2024-09-24T10:06:45 IST" duration-ms="773" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="editPackageInManagePageUnderPackageTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:34 IST" name="editPackageInManagePageUnderPackageTest" finished-at="2024-09-23T16:28:50 IST" duration-ms="16317" status="PASS">
+        <test-method signature="editPackageInManagePageUnderPackageTest()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:45 IST" name="editPackageInManagePageUnderPackageTest" finished-at="2024-09-24T10:06:50 IST" duration-ms="4397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editPackageInManagePageUnderPackageTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:50 IST" name="configAM" finished-at="2024-09-23T16:28:51 IST" duration-ms="516" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:50 IST" name="configAM" finished-at="2024-09-24T10:06:51 IST" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@4d5d943d]" started-at="2024-09-23T16:28:51 IST" name="configAC" finished-at="2024-09-23T16:28:51 IST" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:06:51 IST" name="configAC" finished-at="2024-09-24T10:06:51 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.workoutworks.gms.packagetest.Working_with_PackageModuleTest@16d04d3d]" started-at="2024-09-24T10:07:08 IST" name="configAS" finished-at="2024-09-24T10:07:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
       </class> <!-- com.workoutworks.gms.packagetest.Working_with_PackageModuleTest -->
-    </test> <!-- Test2 -->
+    </test> <!-- Suite -->
   </suite> <!-- Suite -->
 </testng-results>
